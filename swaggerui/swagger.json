@@ -1,0 +1,208 @@
+{
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "http"
+  ],
+  "swagger": "2.0",
+  "info": {
+    "version": "1"
+  },
+  "host": "localhost:8080",
+  "basePath": "/",
+  "paths": {
+    "/categories": {
+      "get": {
+        "tags": [
+          "categories"
+        ],
+        "operationId": "ListCategories",
+        "responses": {
+          "200": {
+            "$ref": "#/responses/categoryResponse"
+          }
+        }
+      },
+      "post": {
+        "security": [
+          {
+            "api_key": []
+          }
+        ],
+        "tags": [
+          "categories"
+        ],
+        "operationId": "Category",
+        "parameters": [
+          {
+            "name": "CategoryName",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/CategoryName"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/categoryResponse"
+          }
+        }
+      }
+    },
+    "/employees/{PageNumber}/{RowCount}": {
+      "get": {
+        "tags": [
+          "employees"
+        ],
+        "operationId": "ListEmployees",
+        "parameters": [
+          {
+            "type": "integer",
+            "format": "int64",
+            "name": "PageNumber",
+            "in": "path",
+            "required": true
+          },
+          {
+            "type": "integer",
+            "format": "int64",
+            "name": "RowCount",
+            "in": "path",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/employeeResponse"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": [
+          "login"
+        ],
+        "operationId": "loginRequest",
+        "parameters": [
+          {
+            "name": "LoginCredential",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/LoginCredentials"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/loginResponse"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Category": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "uint64",
+          "x-go-name": "ID"
+        },
+        "name": {
+          "type": "string",
+          "x-go-name": "Name"
+        }
+      },
+      "x-go-package": "personal_management/api/models"
+    },
+    "CategoryName": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string"
+        }
+      },
+      "x-go-package": "personal_management/api/models"
+    },
+    "Employee": {
+      "type": "object",
+      "properties": {
+        "Birthdate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ID": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Patronymic": {
+          "type": "string"
+        },
+        "Surname": {
+          "type": "string"
+        }
+      },
+      "x-go-package": "personal_management/api/models"
+    },
+    "LoginCredentials": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "x-go-name": "Email"
+        },
+        "password": {
+          "type": "string",
+          "x-go-name": "Password"
+        }
+      },
+      "x-go-package": "personal_management/api/controllers"
+    }
+  },
+  "responses": {
+    "categoryResponse": {
+      "description": "",
+      "schema": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/Category"
+        }
+      }
+    },
+    "employeeResponse": {
+      "description": "",
+      "schema": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/Employee"
+        }
+      }
+    },
+    "loginResponse": {
+      "description": ""
+    }
+  },
+  "securityDefinitions": {
+    "api_key": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "security": [
+    {
+      "api_key": []
+    }
+  ]
+}

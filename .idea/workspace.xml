@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="391d17c0-f3f6-4eae-a924-525dbb5b9edc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/employee_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/Employee.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/util/sql_texts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-es-bundle-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-es-bundle-core.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-es-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-es-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger-ui.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swaggerui/swagger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal_management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal_management.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/category_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/category_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/login_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/login_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/Category.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/Category.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/User.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/User.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/responses/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/responses/json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vObAF2AOZE6H7EQv5QLtDc0g85" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\go\src\personal_management\swaggerui" />
+      <recent name="C:\Users\User\My Files\workspace" />
+      <recent name="C:\Users\User\go\src\personal_management\api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\go\src\personal_management\api\models" />
+      <recent name="C:\Users\User\go\src\personal_management\api" />
+      <recent name="C:\Users\User\go\src\personal_management" />
+    </key>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="353" key="#Go_Modules" timestamp="1626436273222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="353" key="#Go_Modules/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1536.824@0.0.1920.1040" timestamp="1626436273222" />
+    <state x="-1075" y="382" key="#Notifications" timestamp="1626628173484">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1075" y="382" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1536.824@-1920.0.1920.1040" timestamp="1626628173484" />
+    <state x="706" y="384" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1626535966955">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="384" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1536.824@0.0.1920.1040" timestamp="1626535966955" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1626536453300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1536.824@0.0.1920.1040" timestamp="1626536453300" />
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1626447265079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1536.824@0.0.1920.1040" timestamp="1626447265079" />
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1626458419427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1536.824@0.0.1920.1040" timestamp="1626458419427" />
+  </component>
+</project>
